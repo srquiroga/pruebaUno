@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Llamada Ajax jquery</title>
+</head>
+<body>
+    
+    <h1>Llamadas ajax con jquery</h1>
+    <h2>Mostrar datos metodo get</h2>
+    <button id="btnGet">Mostrar</button>
+
+    <div id="data" class="data">
+
+    </div>
+
+    <h2>mostrar datos metod post</h2>
+
+    <form action="https://reqres.in/api/users" method="POST" id="form" class="form">
+    
+        <input type="text" placeholder="Nombre" name="name"/>
+        <input type="text" placeholder="Trabajo" name="job">
+        <input type="submit" value="Resitrar" id="btnSubmit">
+    </form>
+    
+
+    <h2>Metodo $ajax</h2>
+
+    <form action="https://reqres.in/api/users" method="POST" id="formAjax" class="form">
+        <input type="text" placeholder="Nombre" name="name"/>
+        <input type="text" placeholder="Trabajo" name="job">
+        <input type="submit" value="Resitrar" id="btnSubmit">
+    </form>
+   
+
+</body>
+</html>
